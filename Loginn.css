@@ -63,7 +63,7 @@ button{
 	padding: 10px;
 	margin-bottom: 20px;
 }
-button:focus{
+button:active{
 	color: blue;
 	background: white;
 	outline: none;
