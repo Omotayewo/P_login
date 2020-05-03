@@ -1,0 +1,116 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+}
+body{
+	min-height: 100%;
+	background: #f1f1f1;
+}
+img{
+	display: none;
+}
+.two{
+	text-align: center;
+	padding: 30% 0%;
+}
+h3{
+	font-size: 25px;
+}
+input[type=text], input[type=password] {
+	padding: 20px;
+	margin-bottom: 10px;
+	width: 80%;
+	border-radius: 5%;
+	background: #f1f1f1;
+	border: 1px solid #E5E5E5;
+}
+input[type=text]:focus, input[type=password]:focus{
+	outline: solid indigo;
+}
+.line{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 20px;
+	font-size: 10px;
+	padding: 0px 10px;
+}
+.tline a{
+	text-decoration: none;
+}
+.tline a:hover{
+	color: red;
+}
+.tline{
+	margin-top: 7px;
+}
+::placeholder{
+	color: #B4B4B4;
+}
+button a{
+	text-decoration: none;
+	background: none;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-family: "Poppins", san-serif;
+}
+button{
+	background: rgba(0, 0, 255, 0.4);
+	border: none;
+	border-radius: 4%;
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+button:focus{
+	color: blue;
+	background: white;
+	outline: none;
+}
+p{
+	font-size: 10px;
+	margin-bottom: 20px;
+	color: #B4B4B4;
+}
+.fa-facebook{
+	color: white;
+	border: 1px solid blue;
+	padding: 3px 5px;
+	border-radius: 50%;
+	background: blue;
+}
+.fa-twitter{
+	color: white;
+	border: 1px solid hsl(203deg, 89%, 53%);
+	padding: 3px 4px;
+	border-radius: 50%;
+	background: hsl(203deg, 89%, 53%);
+	margin-left: 4px;
+}
+@media screen and (min-width: 739px) {
+	html{
+		min-height: 100%;
+	}
+	.two{
+		padding: 10% 5%;
+		width: 100%;
+	}
+	img{
+		display: block;
+		width: 550px;
+		height: 600px;
+		margin: 0px 0px 0px -6px;
+	}
+	.all{
+		display: flex;
+		background: #f1f1f1;
+		margin-top: 450px;
+	}
+	body{
+		background: white;
+	}
+	.tline{
+		margin-top: 10px;
+	}
+} 
